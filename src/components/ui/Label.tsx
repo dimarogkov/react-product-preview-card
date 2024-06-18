@@ -4,5 +4,11 @@ type Props = {
 };
 
 export const Label: React.FC<Props> = ({ children, className = '' }) => {
-    return <label className={`relative block w-full ${className}`}>{children}</label>;
+    return (
+        <span
+            className={`relative block w-full font-medium text-[13px] sm:text-[14px] tracking-[5px] sm:tracking-[6px] uppercase text-[#6c7289] ${className}`}
+        >
+            {children}
+        </span>
+    );
 };
