@@ -1,6 +1,6 @@
-# React Template
+# Product Preview Card
 
-This is **React Template** for development. Technolgies used: **React, TypeScript, Redux Toolkit, Tailwind CSS.**
+[Project Demo](https://dimarogkov.github.io/react-product-preview-card)
 
 ## Installation Steps
 
@@ -8,14 +8,8 @@ This is **React Template** for development. Technolgies used: **React, TypeScrip
 -   Run `npm i`
 -   Run `npm run start`
 
-## File Structure
+## Technolgies used
 
--   components
-    -   elements
-    -   pages
-    -   ui
--   helpers
--   store
--   types
-    -   enums
-    -   interfaces
+-   React
+-   TypeScript
+-   Tailwind CSS

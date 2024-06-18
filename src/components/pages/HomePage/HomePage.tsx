@@ -1,12 +1,16 @@
-import { Text, Title } from '../../ui';
+import { product } from '../../../data/product';
+
+import { Card } from '../../elements/Card';
+import { Content } from '../../elements/Content';
+import { Img } from '../../elements/Img';
 
 export const HomePage = () => {
+    const { img, content } = product;
+
     return (
-        <section className='relative w-full'>
-            <div className='w-full mb-[20px] last:mb-0'>
-                <Title className='mb-[8px] last:mb-0'>Home Page</Title>
-                <Text>This is Home Page.</Text>
-            </div>
-        </section>
+        <Card>
+            <Img img={img} />
+            <Content content={content} />
+        </Card>
     );
 };
