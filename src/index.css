@@ -5,8 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
     background-color: #f2ebe3;
 }
 
