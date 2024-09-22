@@ -6,6 +6,7 @@
 @tailwind utilities;
 
 html {
+    --fallback-b1: #f2ebe3;
     height: 100%;
 }
 
